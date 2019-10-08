@@ -1,0 +1,33 @@
+:root{
+    --canvas-left:100px;
+    --canvas-height:400px;
+    --canvas-width:400px;
+}
+
+#canvas1{
+    position: relative;
+/*    left: var(--canvas-left);*/
+    height: var(--canvas-height);
+    width: var(--canvas-width);
+    border: 2px solid red;
+}
+#center-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.output-container{
+    position: relative;
+/*    left: var(--canvas-left);*/
+    width: var(--canvas-width);
+    display: grid;
+    grid-template-rows: auto auto ;
+    color: white;
+}
+.coord-container{
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+body{
+    background-color: rgba(0,0,0,.8);;
+}
